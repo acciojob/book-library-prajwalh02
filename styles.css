@@ -3,21 +3,24 @@ body{
 	margin: 0;
 	padding: 0;
 }
-
+h1{
+	text-align: center;
+}
 .book-library{
 	background-color: #ffffff;
 	padding: 20px;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+	
+/* 	display: flex; */
+/* 	justify-content: space-around; */
+/* 	flex-wrap: wrap; */
 }
 .book{
 	width: 250px;
-  margin: 20px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  text-align: center;
-  padding: 10px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
 }
 .book img{
 	width: 150px;
