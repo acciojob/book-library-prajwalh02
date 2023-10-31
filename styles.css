@@ -12,7 +12,7 @@ body>div{
 }
 
 .book-library{
-	width: 100vh;
+	width: 100%;
 	background-color: #f8f8f8;
 	box-shadow: 0 0 8px black;
 }
@@ -20,7 +20,8 @@ body>div{
 	text-align: center;
 }
 .book{
-	margin-top: 2px;
+	margin-top: 10px;
+	background-color: #f8f8f8
 }
 
 .author{
@@ -35,7 +36,7 @@ body>div{
 	
 }
 .image{
-	margin-left: 300px;
+	margin-left: 50%;
 }
 .price{
 	background-color: #2ecc71;
@@ -43,7 +44,7 @@ body>div{
 	height: 30px;
 	padding-top: 5px;
 	text-align: center;
-	
+	border-radius: 5px;
 }
 
 
